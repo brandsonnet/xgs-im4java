@@ -7,7 +7,7 @@
         <version>1.7-SNAPSHOT</version>
     </parent>
     <groupId>org.im4java</groupId>
-    <artifactId>im4java</artifactId>
+    <artifactId>xgs-im4java</artifactId>
     <version>1.4.0-pmg-3-SNAPSHOT</version>
     <name>no::pmg::spring:im4java</name>
     <description>IM for Java</description>
