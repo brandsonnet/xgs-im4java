@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>no.pmg</groupId>
+        <artifactId>pmg-parent</artifactId>
+        <version>1.3</version>
+    </parent>
+    <groupId>org.im4java</groupId>
+    <artifactId>im4java</artifactId>
+    <version>1.4.0-pmg-3-SNAPSHOT</version>
+    <name>no::pmg::spring:im4java</name>
+    <description>IM for Java</description>
+    <inceptionYear>2013</inceptionYear>
+
+
+    <scm>
+        <connection>scm:svn:https://brandson.svn.cvsdude.com/brandson/ImageServer/trunk/im4java
+        </connection>
+        <developerConnection>
+            scm:svn:https://brandson.svn.cvsdude.com/brandson/ImageServer/trunk/im4java
+        </developerConnection>
+    </scm>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-release-plugin</artifactId>
+                <version>${maven-release-plugin.version}</version>
+                <configuration>
+                    <tagBase>https://brandson.svn.cvsdude.com/brandson/ImageServer/tags/im4java
+                    </tagBase>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>
