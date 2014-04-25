@@ -15,11 +15,7 @@
 
 
     <scm>
-        <connection>scm:svn:https://brandson.svn.cvsdude.com/brandson/ImageServer/trunk/im4java
-        </connection>
-        <developerConnection>
-            scm:svn:https://brandson.svn.cvsdude.com/brandson/ImageServer/trunk/im4java
-        </developerConnection>
+        <connection>scm:git:git@github.com:brandsonnet/xgs-im4java.git</connection>
     </scm>
     <build>
         <plugins>
@@ -28,8 +24,7 @@
                 <artifactId>maven-release-plugin</artifactId>
                 <version>${maven-release-plugin.version}</version>
                 <configuration>
-                    <tagBase>https://brandson.svn.cvsdude.com/brandson/ImageServer/tags/im4java
-                    </tagBase>
+                    <pomFileName>xgs-im4java/pom.xml</pomFileName>
                 </configuration>
             </plugin>
         </plugins>
