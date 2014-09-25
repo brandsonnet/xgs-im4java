@@ -4,7 +4,7 @@
     <parent>
         <groupId>eu.nets.datafangst</groupId>
         <artifactId>datafangst-parent</artifactId>
-        <version>1.10</version>
+        <version>1.12</version>
     </parent>
     <groupId>org.im4java</groupId>
     <artifactId>xgs-im4java</artifactId>
@@ -28,19 +28,6 @@
                     <pomFileName>xgs-im4java/pom.xml</pomFileName>
                 </configuration>
             </plugin>
-
-  <plugin>
-      <groupId>org.apache.maven.plugins</groupId>
-      <artifactId>maven-source-plugin</artifactId>
-      <executions>
-        <execution>
-          <goals>
-            <goal>jar</goal>
-          </goals>
-        </execution>
-      </executions>
-    </plugin>
-
         </plugins>
     </build>
 
