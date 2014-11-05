@@ -8,7 +8,7 @@
     </parent>
     <groupId>org.im4java</groupId>
     <artifactId>xgs-im4java</artifactId>
-    <version>1.4.0-pmg-10</version>
+    <version>1.4.0-pmg-11-SNAPSHOT</version>
     <name>no::pmg::spring:im4java</name>
     <description>IM for Java</description>
     <inceptionYear>2013</inceptionYear>
@@ -32,7 +32,7 @@
 
     <scm>
         <connection>scm:git:git@github.com:brandsonnet/xgs-im4java.git</connection>
-        <tag>xgs-im4java-1.4.0-pmg-10</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <distributionManagement>
