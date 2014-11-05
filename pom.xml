@@ -14,10 +14,6 @@
     <inceptionYear>2013</inceptionYear>
 
 
-    <scm>
-        <connection>scm:git:git@github.com:brandsonnet/xgs-im4java.git</connection>
-      <tag>HEAD</tag>
-  </scm>
     <build>
         <plugins>
             <plugin>
@@ -33,5 +29,24 @@
             </plugin>
         </plugins>
     </build>
+
+    <scm>
+        <connection>scm:git:git@github.com:brandsonnet/xgs-im4java.git</connection>
+        <tag>HEAD</tag>
+    </scm>
+
+    <distributionManagement>
+        <repository>
+            <id>pmg-releases</id>
+            <name>Repository for release versions of PMG's jars</name>
+            <url>http://captech.asuscomm.com:8081/nexus/content/repositories/pmg-releases</url>
+        </repository>
+        <snapshotRepository>
+            <id>pmg-snapshots</id>
+            <name>Repository for snapshot versions of PMG's jars</name>
+            <url>http://captech.asuscomm.com:8081/nexus/content/repositories/pmg-snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
+
 
 </project>
